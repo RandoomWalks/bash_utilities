@@ -1,11 +1,12 @@
 ## Sample Usage
 
-### Current Directory: /home/user/projects/my_project/src/components
+##### Jump up the path tree
+**Current Directory: /home/user/projects/my_project/src/components**
 bck 3
-### New Directory: /home/user/projects/my_project
+**New Directory: /home/user/projects/my_project**
 
 
-### Directory bookmarks
+##### Directory bookmarks
 cd /home/user/projects/project1
 bokmark proj
 
