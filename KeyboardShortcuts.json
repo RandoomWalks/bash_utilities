@@ -1,0 +1,123 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+        "key": "ctrl+shift+backspace ctrl+shift+e",
+        "command": "workbench.action.quickOpen"
+    },
+    {
+        "key": "alt+e",
+        "command": "github.copilot.terminal.explainTerminalSelectionContextMenu"
+    },
+    {
+        "key": "alt+d",
+        "command": "github.copilot.terminal.explainTerminalLastCommand"
+    },
+    {
+        "key": "alt+q",
+        "command": "github.copilot.toggleCopilot"
+    },
+    {
+        "key": "alt+t",
+        "command": "github.copilot.terminal.explainTerminalSelection"
+    },
+    {
+        "key": "alt+f",
+        "command": "github.copilot.interactiveEditor.fix"
+    },
+    {
+        "key": "alt+g",
+        "command": "github.copilot.interactiveEditor.generate"
+    },
+    {
+        "key": "alt+x",
+        "command": "github.copilot.git.generateCommitMessage"
+    },
+    {
+        "key": "alt+v",
+        "command": "github.copilot.interactiveEditor.explain"
+    },
+    {
+        "key": "alt+b",
+        "command": "github.copilot.interactiveEditor.generateDocs"
+    },
+    {
+        "key": "alt+n",
+        "command": "github.copilot.interactiveEditor.generateTests"
+    },
+    {
+        "key": "shift+alt+w",
+        "command": "workbench.panel.chat.view.copilot.focus"
+    },
+    {
+        "key": "shift+alt+e",
+        "command": "workbench.action.openChat.copilot"
+    },
+    {
+        "key": "shift+alt+s",
+        "command": "workbench.action.openQuickChat.copilot"
+    },
+    {
+        "key": "ctrl+shift+e",
+        "command": "github.copilot.generate",
+        "when": "editorTextFocus && github.copilot.activated && !inInteractiveInput && !interactiveEditorFocused"
+    },
+    {
+        "key": "ctrl+enter",
+        "command": "-github.copilot.generate",
+        "when": "editorTextFocus && github.copilot.activated && !inInteractiveInput && !interactiveEditorFocused"
+    },
+    {
+        "key": "ctrl+pagedown",
+        "command": "workbench.action.terminal.focusNext",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+pageup",
+        "command": "workbench.action.terminal.focusPrevious",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+up",
+        "command": "cursorMove",
+        "args": {
+            "to": "up",
+            "by": "line",
+            "value": 5
+        },
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+down",
+        "command": "cursorMove",
+        "args": {
+            "to": "down",
+            "by": "line",
+            "value": 5
+        },
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+/",
+        "command": "editor.action.blockComment",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "shift+alt+a",
+        "command": "-editor.action.blockComment",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+e",
+        "command": "-workbench.action.quickOpen"
+    },
+    {
+        "key": "ctrl+e",
+        "command": "-editor.action.toggleScreenReaderAccessibilityMode",
+        "when": "accessibilityHelpIsShown"
+    },
+    {
+        "key": "ctrl+e",
+        "command": "-workbench.action.quickOpenNavigateNextInFilePicker",
+        "when": "inFilesPicker && inQuickOpen"
+    }
+]
